@@ -25,17 +25,19 @@ class ImageViewModel: ObservableObject {
         self.url = url
         self.id = id
         getSavedImage()
-        if image == nil {
-            print("Downloading Image")
-            getImage()
-        }
     }
 
     func getSavedImage() {
+        
+        // in cache? get it
         if let image = cacheManager.getData(name: id) {
             self.image = image
             isLoading = false
             print("found image in cache")
+        } else {
+            // not in cache download it
+            print("Downloading Image")
+            getImage()
         }
     }
 

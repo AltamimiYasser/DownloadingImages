@@ -18,6 +18,7 @@
 		3B7D46232741ADC2000C3595 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D46222741ADC2000C3595 /* ImageViewModel.swift */; };
 		3B7D46262741B000000C3595 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D46252741B000000C3595 /* NetworkManager.swift */; };
 		3B7D46282741B668000C3595 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7D46272741B668000C3595 /* CacheManager.swift */; };
+		3BB41DBB2741C87000ED864D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3BB41DBA2741C87000ED864D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3B7D46222741ADC2000C3595 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		3B7D46252741B000000C3595 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		3B7D46272741B668000C3595 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		3BB41DBA2741C87000ED864D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		3B7D45FC2741A908000C3595 = {
 			isa = PBXGroup;
 			children = (
+				3BB41DBA2741C87000ED864D /* README.md */,
 				3B7D46072741A908000C3595 /* DownloadingImages */,
 				3B7D46062741A908000C3595 /* Products */,
 			);
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB41DBB2741C87000ED864D /* README.md in Resources */,
 				3B7D46102741A908000C3595 /* Preview Assets.xcassets in Resources */,
 				3B7D460D2741A908000C3595 /* Assets.xcassets in Resources */,
 			);

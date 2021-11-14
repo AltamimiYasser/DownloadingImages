@@ -68,10 +68,10 @@
 		3B7D46072741A908000C3595 /* DownloadingImages */ = {
 			isa = PBXGroup;
 			children = (
-				3B7D46192741A947000C3595 /* Views */,
-				3B7D46182741A93D000C3595 /* ViewModels */,
-				3B7D46172741A936000C3595 /* Models */,
-				3B7D46242741AFF0000C3595 /* Utilites */,
+				3BB41DBF2741C9FD00ED864D /* Utilities */,
+				3BB41DBE2741C9F000ED864D /* Models */,
+				3BB41DBD2741C9D900ED864D /* ViewModels */,
+				3BB41DBC2741C9C600ED864D /* Views */,
 				3B7D46162741A915000C3595 /* Others */,
 				3B7D46082741A908000C3595 /* DownloadingImagesApp.swift */,
 			);
@@ -95,40 +95,40 @@
 			name = Others;
 			sourceTree = "<group>";
 		};
-		3B7D46172741A936000C3595 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				3B7D461C2741AA35000C3595 /* ImageModel.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		3B7D46182741A93D000C3595 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				3B7D461A2741A99E000C3595 /* MainListViewModel.swift */,
-				3B7D46222741ADC2000C3595 /* ImageViewModel.swift */,
-			);
-			name = ViewModels;
-			sourceTree = "<group>";
-		};
-		3B7D46192741A947000C3595 /* Views */ = {
+		3BB41DBC2741C9C600ED864D /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				3B7D460A2741A908000C3595 /* MainListView.swift */,
 				3B7D461E2741AC65000C3595 /* RowView.swift */,
 				3B7D46202741AD1F000C3595 /* ImageView.swift */,
 			);
-			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		3B7D46242741AFF0000C3595 /* Utilites */ = {
+		3BB41DBD2741C9D900ED864D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B7D461A2741A99E000C3595 /* MainListViewModel.swift */,
+				3B7D46222741ADC2000C3595 /* ImageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3BB41DBE2741C9F000ED864D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B7D461C2741AA35000C3595 /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3BB41DBF2741C9FD00ED864D /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				3B7D46252741B000000C3595 /* NetworkManager.swift */,
 				3B7D46272741B668000C3595 /* CacheManager.swift */,
 			);
-			name = Utilites;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
